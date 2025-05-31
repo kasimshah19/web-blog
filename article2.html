@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Getting Started with Semantic HTML5 | Kasim’s Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+                  url('../images/bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f1f1f1;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 800px;
+      background-color: rgba(255, 255, 255, 0.95);
+      color: #333;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    article h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: #ccc;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    code {
+      background-color: #eee;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1.5rem;
+        margin: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kasim’s Blog</h1>
+    <p>Insights into Modern Web Development</p>
+  </header>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+    <a href="article1.html">← Prev Article</a>
+  </nav>
+
+  <main>
+    <article>
+      <h1>🚀 Getting Started with Semantic HTML5</h1>
+      <p class="meta">Published: May 5, 2025 • 3 min read</p>
+
+      <p>Semantic HTML is about using the right element for the right purpose. It makes your code more meaningful to both developers and machines—like search engines and screen readers.</p>
+
+      <p>Instead of using generic tags like <code>&lt;div&gt;</code> and <code>&lt;span&gt;</code> everywhere, HTML5 introduced new tags like:</p>
+
+      <ul>
+        <li><code>&lt;header&gt;</code> – top section of a page or section</li>
+        <li><code>&lt;nav&gt;</code> – navigation menus or links</li>
+        <li><code>&lt;main&gt;</code> – primary content of the page</li>
+        <li><code>&lt;article&gt;</code> – standalone content like blog posts</li>
+        <li><code>&lt;section&gt;</code> – grouped content with a heading</li>
+        <li><code>&lt;footer&gt;</code> – bottom section with links or copyright</li>
+      </ul>
+
+      <p>Using semantic tags improves:</p>
+      <ul>
+        <li>📈 SEO: Search engines understand your content better</li>
+        <li>🧠 Accessibility: Screen readers navigate with ease</li>
+        <li>🧹 Readability: Cleaner structure for future developers</li>
+      </ul>
+
+      <p>Next time you're building a page, think twice before reaching for <code>&lt;div&gt;</code>. HTML5 gives you smarter options!</p>
+
+      <a class="back-link" href="../index.html">← Back to Blog</a>
+    </article>
+  </main>
+
+  <footer>
+    &copy; 2025 Kasim • Sharing semantic knowledge with the world
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>How CSS Grid Changed My Layout Workflow | Kasim’s Blog</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+                  url('../images/bg.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #f1f1f1;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #0077cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 800px;
+      background-color: rgba(255, 255, 255, 0.95);
+      color: #333;
+      margin: 2rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    article h1 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .meta {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 2rem;
+    }
+
+    a.back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+
+    a.back-link:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      color: #ccc;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      main {
+        padding: 1.5rem;
+        margin: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kasim’s Blog</h1>
+    <p>Insights into Modern Web Development</p>
+  </header>
+
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+    <a href="article2.html">Next Article →</a>
+  </nav>
+
+  <main>
+    <article>
+      <h1>💡 How CSS Grid Changed My Layout Workflow</h1>
+      <p class="meta">Published: May 19, 2025 • 4 min read</p>
+      
+      <p>Before CSS Grid, I used to rely on flexbox, floats, or even hacky positioning to manage complex layouts. It worked, but it always felt like solving puzzles with missing pieces. That changed dramatically when I discovered CSS Grid.</p>
+
+      <p>CSS Grid lets me define entire layout regions without worrying about element order in the markup. I can name grid areas, adjust column/row spans, and align items with incredible precision—all without additional markup or wrappers.</p>
+
+      <p>Here’s what stood out most:</p>
+
+      <ul>
+        <li>🚀 True 2D layout support (rows and columns together)</li>
+        <li>💼 Cleaner HTML structure—less nesting</li>
+        <li>📐 More control over alignment and spacing</li>
+        <li>🧩 Great fallback with flexbox when needed</li>
+      </ul>
+
+      <p>If you're designing dashboards, blogs, or responsive layouts, CSS Grid can save time and frustration. It’s now my default layout tool—and I haven’t looked back.</p>
+
+      <a class="back-link" href="../index.html">← Back to Blog</a>
+    </article>
+  </main>
+
+  <footer>
+    &copy; 2025 Kasim • Powered by HTML & CSS Grid
+  </footer>
+
+</body>
+</html>
