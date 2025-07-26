@@ -58,6 +58,18 @@ _No JavaScript or frameworks used — pure front-end project._
 
 ---
 
+## Screenshots
+## Home Page
+<img width="1920" height="900" alt="Screenshot (629)" src="https://github.com/user-attachments/assets/6aa473b9-0228-4ab1-bddb-bbb90229b754" />
+## About
+<img width="1920" height="915" alt="Screenshot (630)" src="https://github.com/user-attachments/assets/f6a3c4f5-947b-4d15-9031-23617d218da1" />
+## Contact Me
+<img width="1920" height="916" alt="Screenshot (631)" src="https://github.com/user-attachments/assets/590b1716-5153-4959-bb75-245d99c6c167" />
+## Article Post
+<img width="1920" height="895" alt="Screenshot (632)" src="https://github.com/user-attachments/assets/0450a34e-68a9-43c7-9222-d956f2d01a8c" />
+
+
+
 ## 🧩 How to Use
 
 ```bash
